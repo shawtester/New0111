@@ -37,6 +37,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import VerticalCategoryPage from './pages/category/VerticalCategoryPage';
 import Testimonial from './components/testimonial/Testimonial';
 import Certificate from './components/certificate/Certificate';
+import StickyPhone from './components/phonenumber/StickyPhone';
 
 
 
@@ -96,6 +97,7 @@ const App = () => {
 
        
       </Routes>
+      <StickyPhone/>
       <ToastContainer/>
    
     </Router>
